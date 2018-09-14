@@ -118,4 +118,4 @@ class Watermelon {
     }
 ```
 
-Cheers! Now you can use your LamdaError in your project with your custom data type. See example, ```CustomError``` class.
+Cheers! Now you can use your LamdaError in your project with your custom data type. See example, [```CustomError```](https://github.com/CodeSnooker/ts-custom-error/blob/master/lib/errors/custom/CustomError.ts) class.
