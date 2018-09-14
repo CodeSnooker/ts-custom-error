@@ -119,3 +119,13 @@ class Watermelon {
 ```
 
 Cheers! Now you can use your LamdaError in your project with your custom data type. See example, [```CustomError```](https://github.com/CodeSnooker/ts-custom-error/blob/master/lib/errors/custom/CustomError.ts) class.
+
+# NOTE
+
+In case if you are using jest in your project, then you may face the error while doing test as jest does not directly honour the scope libraries. So you may need to add following code in your jest configuration file.
+
+```
+moduleNameMapper: {
+        "^@codesnooker/ts-custom-error$": "<rootDir>/node_modules/@codesnooker/ts-custom-error/dist/index.js",
+    }
+```
