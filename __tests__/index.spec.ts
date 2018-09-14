@@ -1,12 +1,5 @@
 import { DatabaseError, ErrorType, DuplicateRecordError, NullFieldError, RecordNotFoundError, ValidationError, UnknownError } from '../lib';
 
-// DatabaseError,
-// DuplicateRecord,
-// NullFieldError,
-// RecordNotFoundError,
-// ValidationError,
-// UnknownError
-
 class Watermelon {
     public getDatabaseError(customMessage?: any): Promise<boolean> {
         return new Promise<boolean>((resolve, reject) => {
