@@ -1,7 +1,7 @@
 {
-  "name": "ts-library",
+  "name": "@codesnooker/ts-custom-error",
   "version": "1.0.3",
-  "description": "Typescript Library Project",
+  "description": "Typescript Custom Errors",
   "main": "index.js",
   "files": [
     "dist/"
@@ -23,7 +23,9 @@
   },
   "keywords": [
     "typescript",
-    "library"
+    "custom errors",
+    "custom",
+    "error"
   ],
   "author": "Paras Mendiratta <code.snooker@gmail.com>",
   "license": "MIT",
